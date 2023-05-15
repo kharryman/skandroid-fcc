@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:support-v4:24.0.0-alpha2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79fe7591cc1bc4826c34f3f3f9899677/support-v4-24.0.0-alpha2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/405a516eaef990b5f658ba764b13a31f/support-v4-24.0.0-alpha2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79fe7591cc1bc4826c34f3f3f9899677/support-v4-24.0.0-alpha2/jars/libs/internal_impl-24.0.0-alpha2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79fe7591cc1bc4826c34f3f3f9899677/support-v4-24.0.0-alpha2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79fe7591cc1bc4826c34f3f3f9899677/support-v4-24.0.0-alpha2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79fe7591cc1bc4826c34f3f3f9899677/support-v4-24.0.0-alpha2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.0.0-alpha2/ed469a40acaa4a7cf558c81fc23d98df9debbcc8/support-v4-24.0.0-alpha2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.0.0-alpha2/c34db24e4c75fabea7f8f02215252c541c27b167/support-v4-24.0.0-alpha2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

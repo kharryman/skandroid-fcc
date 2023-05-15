@@ -2,7 +2,7 @@ package com.samknows.fcc;
 
 import java.io.IOException;
 
-import com.samknows.libcore.SKLogger;
+import com.samknows.libcore.SKAndroidLogger;
 import com.samknows.measurement.SKApplication;
 import com.samknows.ska.activity.SKAMainResultsActivity;
 
@@ -109,7 +109,7 @@ public class FCCApplication extends SKApplication {
     try {
       inputStream = getAssets().open("Schedule_FCC.xml");
     } catch (IOException e) {
-      SKLogger.sAssert(getClass(),  false);
+      SKAndroidLogger.sAssert(getClass(),  false);
     }
     return inputStream;
   }

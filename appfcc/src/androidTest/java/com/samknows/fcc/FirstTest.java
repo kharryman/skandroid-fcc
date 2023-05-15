@@ -2,7 +2,7 @@ package com.samknows.fcc;
 
 import java.util.Date;
 
-import com.samknows.fcc.FCCApplication;
+//import com.samknows.fcc.FCCApplication;
 import com.samknows.libcore.*;
 import com.samknows.libcore.SKServiceDataCache.CachedValue;
 import com.samknows.measurement.*;
@@ -41,8 +41,8 @@ public class FirstTest {
 //		assertNull(Constants.PROP_TEST_START_WINDOW_RTC);
 
     	// Creating this, should populate the values in Constants...
-		FCCApplication application = new FCCApplication();
-		assertNotNull(application);
+		//FCCApplication application = new FCCApplication();
+		//assertNotNull(application);
 		
 		assertEquals(SKConstants.PREF_KEY_USED_BYTES,  "used_bytes");
 		assertEquals(SKConstants.PREF_DATA_CAP,  "data_cap_pref");

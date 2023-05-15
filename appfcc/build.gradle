@@ -5,11 +5,11 @@ apply plugin: 'kotlin-android-extensions'
 final String osName = System.getProperty("os.name").toLowerCase()
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.samknows.fcc"
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 33
 
         versionCode 224
         versionName "1.${versionCode}"

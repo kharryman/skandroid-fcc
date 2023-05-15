@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: C./workspace/skandroid-fcc/skandroid-core/libcore/libs/twitter4j-core-3.0.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/skandroid-core/libcore/libs/twitter4j-core-3.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

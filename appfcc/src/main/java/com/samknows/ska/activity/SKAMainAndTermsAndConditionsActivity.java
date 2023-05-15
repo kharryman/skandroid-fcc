@@ -30,12 +30,12 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ScrollView;
 
-import com.samknows.libcore.SKLogger;
+import com.samknows.libcore.SKAndroidLogger;
 import com.samknows.measurement.SK2AppSettings;
 import com.samknows.measurement.MainService;
 import com.samknows.fcc.R;
 import com.samknows.measurement.activity.BaseLogoutActivity;
-import com.samknows.measurement.activity.components.Util;
+//import com.samknows.measurement.activity.components.Util;
 import com.samknows.measurement.util.LoginHelper;
 import com.samknows.measurement.util.OtherUtils;
 
@@ -123,7 +123,7 @@ public class SKAMainAndTermsAndConditionsActivity extends BaseLogoutActivity {
 					agreement = tandcAgreementVersion;
 				}
 			} catch (Exception e) {
-				SKLogger.sAssert(getClass(),  false);
+				SKAndroidLogger.sAssert(getClass(),  false);
 			}
 		}
 		if (agreement != null && agreement.equals(tandcAgreementVersion)) {
@@ -139,7 +139,7 @@ public class SKAMainAndTermsAndConditionsActivity extends BaseLogoutActivity {
 			//this.setTheme(R.style.ApplicationStyle);
 
 			setContentView(R.layout.ska_main_and_terms_and_conditions_activity);
-			appSettings.setForceDownload();
+			//appSettings.setForceDownload();
 			page_number = 1;
 
 			webview = (WebView) findViewById(R.id.webview);
@@ -164,8 +164,8 @@ public class SKAMainAndTermsAndConditionsActivity extends BaseLogoutActivity {
 				}
 			});
 
-			Util.initializeFonts(this);
-			Util.overrideFonts(this, findViewById(android.R.id.content));
+			//Util.initializeFonts(this);
+			//Util.overrideFonts(this, findViewById(android.R.id.content));
 		}
 	}
 
@@ -235,8 +235,8 @@ public class SKAMainAndTermsAndConditionsActivity extends BaseLogoutActivity {
 				}
 			});
 
-			Util.overrideFonts(SKAMainAndTermsAndConditionsActivity.this,
-					findViewById(android.R.id.content));
+			//Util.overrideFonts(SKAMainAndTermsAndConditionsActivity.this,
+			//		findViewById(android.R.id.content));
 
 			alertDialog.show();
 
